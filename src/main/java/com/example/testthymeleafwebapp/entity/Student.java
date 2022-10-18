@@ -1,13 +1,17 @@
-package com.example.testrest2dbh2.entity;
+package com.example.testthymeleafwebapp.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 
 @Setter
 @Getter
 @Entity
+@ToString
+@AllArgsConstructor
 @Table(name = "STUDENTS")
 public class Student {
 
